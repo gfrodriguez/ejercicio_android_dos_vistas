@@ -13,7 +13,7 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_menu);
 
         spn_Categoria = (Spinner)findViewById(R.id.spinner2);
 
@@ -22,7 +22,9 @@ public class MenuActivity extends AppCompatActivity {
 
     public void DesplegarCategorias() {
         String Categorias[] = {"Deportes", "Tecnología", "Ciencia"};
+
         ArrayAdapter adc = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, Categorias);
+
         spn_Categoria.setAdapter(adc);
     }
 }

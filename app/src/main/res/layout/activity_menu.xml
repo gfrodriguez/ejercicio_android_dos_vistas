@@ -152,12 +152,15 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="27dp">
 
-                <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="52dp"
-                    android:src="@drawable/arrow"
-                    android:id="@+id/imageButton3" />
             </LinearLayout>
+
+            <ImageButton
+                android:layout_height="59dp"
+                app:srcCompat="@drawable/arrow"
+                android:id="@+id/imageButton"
+                android:layout_width="60dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
 
         </LinearLayout>
 
