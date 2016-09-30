@@ -21,7 +21,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void DesplegarCategorias() {
-        String Categorias[] = {"Deportes", "Tecnología", "Ciencia"};
+        String Categorias[] = {"","Deportes", "Tecnología", "Ciencia"};
 
         ArrayAdapter adc = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, Categorias);
 
